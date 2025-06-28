@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+  <!-- Error 1: root element is <Hotel>, not <Hotels> -->
+  <Hotel Rating="4.2">
+    <Name>Westin</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <!-- Error 2: missing required attribute "Number" -->
+    <Address>
+      <Street>E 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel>
+    <Name>Hyatt</Name>
+    <!-- Error 3: missing Phone element -->
+    <Address Number="22">
+      <Street>Mill Ave</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85282</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+
+  <Hotel Rating="3.8">
+    <!-- Error 4: Address has no closing tag -->
+    <Name>Hilton</Name>
+    <Phone>602-222-3333</Phone>
+    <Address Number="33">
+      <Street>Apache Blvd</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85283</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+  </Hotel>
+
+  <Hotel Rating="4.5">
+    <!-- Error 5: two Name elements -->
+    <Name>Marriott</Name>
+    <Name>Marriott Again</Name>
+    <Phone>602-888-7777</Phone>
+    <Address Number="44">
+      <Street>University Dr</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85284</Zip>
+      <NearestAirport>Sky Harbor</NearestAirport>
+    </Address>
+  </Hotel>
+</Hotel>

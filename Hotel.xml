@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+	<Hotel Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address Number="11">
+			<Street>E 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.5">
+		<Name>Hyatt</Name>
+		<Phone>480-123-4567</Phone>
+		<Address Number="22">
+			<Street>Mill Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85282</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.8">
+		<Name>Hilton</Name>
+		<Phone>602-222-3333</Phone>
+		<Address Number="33">
+			<Street>Apache Blvd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85283</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Marriott</Name>
+		<Phone>602-888-7777</Phone>
+		<Phone>888-555-0000</Phone>
+		<Address Number="44">
+			<Street>University Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85284</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.7">
+		<Name>Renaissance</Name>
+		<Phone>480-999-1111</Phone>
+		<Address Number="55">
+			<Street>Broadway Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85285</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.6">
+		<Name>Holiday Inn</Name>
+		<Phone>602-777-7777</Phone>
+		<Address Number="66">
+			<Street>McClintock Dr</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85286</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.1">
+		<Name>Comfort Suites</Name>
+		<Phone>480-888-2222</Phone>
+		<Address Number="77">
+			<Street>Baseline Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85287</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.0">
+		<Name>Embassy Suites</Name>
+		<Phone>602-444-3333</Phone>
+		<Address Number="88">
+			<Street>Rural Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85288</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="3.9">
+		<Name>Best Western</Name>
+		<Phone>480-111-2222</Phone>
+		<Address Number="99">
+			<Street>Southern Ave</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85289</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+	<Hotel Rating="4.3">
+		<Name>Fairfield Inn</Name>
+		<Phone>602-999-0000</Phone>
+		<Address Number="100">
+			<Street>Scottsdale Rd</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85290</Zip>
+			<NearestAirport>Sky Harbor</NearestAirport>
+		</Address>
+	</Hotel>
+</Hotels>
